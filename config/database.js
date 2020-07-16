@@ -2,7 +2,7 @@ module.exports = ({ env }) => ({
   defaultConnection: 'default',
   connections: {
     default: {
-      connector: 'strapi-mongoose',
+      connector: 'strapi-connector-mongoose',
       settings: {
         client: 'mongo',
         host: env('DATABASE_HOST', 'ds161175.mlab.com'),
